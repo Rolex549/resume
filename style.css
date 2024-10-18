@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    diaplay:flex;
+    width: 100%;
+    height:100%;
+    background-color: #fff;
+    background-size: cover;
+}
+
+#name{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+#name h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 21px;
+}
+#overview{
+    position: relative;
+    width: 100%;
+    height: 5%;
+}
+#overview h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+#left{
+    position: relative;
+    width: 40%;
+    height: 200px;
+    top: 10%;
+    left: 0%;
+}
+
+#contact {
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 160px;
+    top: 0%;
+    left: 5%;
+}
+#contact h2{
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+#lelem{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    top:25%;
+}
+#relem{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    top: 25%;
+    left: 8%;
+}
+
+#skills {
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 120px;
+    top: 0%;
+    left: 5%;
+}
+#skills h2{
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+#skills p{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top:30%;
+}
+
+#education {
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 110px;
+    top: 0%;
+    left: 5%;
+}
+
+#education h2{
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+#education h3{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 2px;
+    top:35%;
+}
+#education p{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    top:55%;
+}
+
+#line{
+    position: absolute;
+    width:2px;
+    height: 400px;
+    background-color: grey;
+    top: 35%;
+    left: 35%;
+    opacity: .3;
+}
+
+#right{
+    position: absolute;
+    width: 60%;
+    height: 120px;
+    top: 37%;
+    left: 38%;
+}
+#about {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    top: 0%;
+    left: 0%;
+}
+#about h2{
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+#about p{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    top:20%;
+}
+
+#experience{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    top: -20%;
+    left: 0%;
+}
+#experience h2{
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+
+#experience h3{
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 1px;
+    top:40%;
+}
+#experience h4{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    top:60%;
+}
+#experience p{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    top:70%;
+}
+#experience ul{
+    position: absolute;
+    list-style-position: inside;
+    padding-left: 0;
+    top:90%;
+    left: 5%;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
